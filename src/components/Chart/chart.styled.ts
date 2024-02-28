@@ -1,5 +1,9 @@
 import styled from '@emotion/styled'
 
+export const ChartWrapper = styled.div`
+    width: 100%;
+    height: 500px;
+`
 export const TooltipWrapper = styled.div`
   display: flex;
   align-items: center;

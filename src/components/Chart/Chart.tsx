@@ -1,11 +1,11 @@
 import { ResponsiveLine, Serie } from '@nivo/line'
 import { format } from 'date-fns'
-import { TickerNaming, TooltipWrapper } from './chart.styled'
+import { ChartWrapper, TickerNaming, TooltipWrapper } from './chart.styled'
 export const Chart = ({ data }: { data: Serie[] }) => {
   const valuesToShow = data.length && data[0].data.map((v, i) => (i % 2 === 0 ? '' : v.x))
 
   return (
-    <div style={{ width: '100%', height: '500px' }}>
+    <ChartWrapper>
       <ResponsiveLine
         data={data}
         margin={{ top: 50, right: 50, bottom: 50, left: 60 }}
@@ -85,6 +85,6 @@ export const Chart = ({ data }: { data: Serie[] }) => {
           },
         ]}
       />
-    </div>
+    </ChartWrapper>
   )
 }
