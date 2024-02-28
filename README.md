@@ -12,7 +12,8 @@ The app is missing fancy styling and tests, again for the sake of time. Time to 
 
 ### Run locally
 
-In order to run the app locally you can either run a development server by running `npm run start`, once the devserver is
+In order to run the app locally you first need to install dependencies by running `npm install` in the root folder of the project.
+After this you can either run a development server by running `npm run start`, once the devserver is
 started you can open `localhost:3000` (if it wasn't opened automatically).
 
 Other option would be to build the app to production mode by running `npm run build` and serve it locally with e.g `serve -s build` (make sure that serve is installed - `npm i -g serve`)
