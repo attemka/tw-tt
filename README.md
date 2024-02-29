@@ -1,8 +1,8 @@
-# Timewave Test Task
+# TW Test Task
 
 ### Overview
 
-This application will show a chart of a price change of $ATOM-$NTRN ticker for the last 7 days.
+This application will show a chart of a price change of $AT0M-$NТRN ticker for the last 7 days.
 
 ### Implementation details
 
